@@ -1,9 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import '../styles/index.css';
 import { Header } from "../components/Header.jsx";
+import { parseWecapDate } from '../lib/wecapDates.js';
 
 export const WecapCards = (props) =>{
-  const issueDate = new Date(`${props.uploaded_at}T00:00:00`);
+  const issueDate = parseWecapDate(props.uploaded_at);
+  const monthDay = issueDate
+    ? `${issueDate.toLocaleString("en-US", { month: "short" }).toUpperCase()} ${issueDate.toLocaleString('default', { day: 'numeric' })}`
+    : '';
+  const year = issueDate ? issueDate.getFullYear() : '';
+
       return (
             <a
               key={props.id}
@@ -14,8 +20,8 @@ export const WecapCards = (props) =>{
             >
             <span className="wecap-archive-accent" aria-hidden="true" />
             <div className="wecap-archive-date">
-                <span>{issueDate.toLocaleString("en-US", { month: "short" }).toUpperCase()} {issueDate.toLocaleString('default', { day: 'numeric' })}</span>
-                <span>{issueDate.getFullYear()}</span>
+                <span>{monthDay}</span>
+                <span>{year}</span>
             </div>
             <div className="wecap-archive-content">
                 <h4 className="wecap-archive-title nice-font">

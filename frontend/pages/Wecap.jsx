@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Link } from "react-router-dom";
 import '../styles/index.css';
 import { Header } from "../components/Header.jsx"
+import { formatWecapDate } from '../lib/wecapDates.js';
 import { WecapCards } from "./Archive.jsx";
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 import pdfWorker from "pdfjs-dist/legacy/build/pdf.worker.mjs?url";
@@ -99,9 +100,6 @@ const PdfPreview = ({ fileUrl, fileName }) => {
     </div>
   );
 };
-
-const formatWecapDate = (date) => new Date(`${date}T00:00:00`).toLocaleDateString();
-
 
 const WecapViewer = () => {
   const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000';

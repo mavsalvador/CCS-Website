@@ -15,6 +15,7 @@ import FeedIcon from '@mui/icons-material/Feed';
 import SpeakerNotesIcon from '@mui/icons-material/SpeakerNotes';
 import WarehouseIcon from '@mui/icons-material/Warehouse';
 import CameraAltIcon from '@mui/icons-material/CameraAlt';
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 
 const resourceLinks = [{
   url: "https://drive.google.com/drive/u/0/folders/0ACCvP0Atflf9Uk9PVA",
@@ -38,7 +39,13 @@ const resourceLinks = [{
   url: "https://drive.google.com/drive/u/0/folders/1XyJRhgIEkzqmX7jiHvbf7aBQB0z50gpb",
   title: "Media",
   icon: <CameraAltIcon fontSize="small" />,
-}, ]
+}, 
+{
+  url: "",
+  title: "FOAPAL Num: 823232-59015-xxxxx-99000",
+  icon: <AccountBalanceIcon fontSize="small" />,
+}, 
+]
 
 function PdfUploader({ onUploaded }) {
   const [formData, setFormData] = useState({

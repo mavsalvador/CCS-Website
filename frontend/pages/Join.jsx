@@ -51,8 +51,8 @@ export const Join = () => {
                 <p class="text-[#554433] text-base mb-6 leading-relaxed">
                   Get real-time updates, chat with members, and stay informed
                 </p>
-                <a href="https://www.instagram.com/ccsofnd/" class="block simple-font !text-center !text-white text-sm !font-normal tracking-wider py-3.5 mb-6 bg-[#9a2d24] rounded-lg transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-[#c9a227]">
-                  JOIN GROUPME CHAT (link needs to be fixed)
+                <a href="https://groupme.com/join_group/116966556/gpefgxOe" class="block simple-font !text-center !text-white text-sm !font-normal tracking-wider py-3.5 mb-6 bg-[#9a2d24] rounded-lg transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-[#c9a227]">
+                  JOIN OUR GROUPME CHAT
                 </a>
                 <div className="bg-[#f2e8d5] border-1 border-[#dcb377cf]">
                     <ul className="text-[#554433] text-base !text-md ml-4 mt-4 mb-4 p-2 leading-relaxed space-y-2">
@@ -84,8 +84,8 @@ export const Join = () => {
                           <li> ...and more!</li>
                         </ul>
                   </div>
-                   <a href="https://www.instagram.com/ccsofnd/" class="w-1/2 block simple-font !text-center !text-white text-sm !font-normal tracking-wider py-3.5 mb-6 bg-[#9a2d24] rounded-lg transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-[#c9a227]">
-                      PAY DUES (link needs to be fixed)
+                   <a href="https://shop.nd.edu:443/C21688_ustores/web/product_detail.jsp?PRODUCTID=14052&SINGLESTORE=true" class="w-1/2 block simple-font !text-center !text-white text-sm !font-normal tracking-wider py-3.5 mb-6 bg-[#9a2d24] rounded-lg transition-all duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:border-[#c9a227]">
+                      PAY DUES
                     </a>
               </div>
             </div>

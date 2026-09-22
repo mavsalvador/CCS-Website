@@ -44,7 +44,11 @@ const resourceLinks = [{
   url: "",
   title: "FOAPAL Num: 823232-59015-xxxxx-99000",
   icon: <AccountBalanceIcon fontSize="small" />,
-}, 
+}, {
+  url:"https://www.ilovepdf.com/download/1dhbw6qz9zby7sx6j2gn7954x7qvc6qmkjndnyhb6nb3dyyw3z3lkwhq7lcxA76ygplAgf1hv9g5w3n0lq7qnm6xsqy7w399y43t3r85dqztlw8twt9q1n1jjlb1ndz9bngn20k5lAyb0zzv38A1sbv72prdm2b1rvcf675Awyyjklmt7qxq/41",
+  title: "PDF/Wecap compresser",
+  icon:  <SpeakerNotesIcon fontSize="small"/>
+}
 ]
 
 function PdfUploader({ onUploaded }) {
